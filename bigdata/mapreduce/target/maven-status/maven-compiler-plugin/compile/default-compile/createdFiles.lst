@@ -1,0 +1,7 @@
+com\kkb\myInputFormat\MergeSmallFile.class
+com\kkb\myInputFormat\MyRecordReader.class
+com\kkb\mapreduce\MyReducer.class
+com\kkb\myInputFormat\MyInputFormat.class
+com\kkb\mapreduce\MyMapper.class
+com\kkb\myInputFormat\MyMapper.class
+com\kkb\mapreduce\WordCounter.class
