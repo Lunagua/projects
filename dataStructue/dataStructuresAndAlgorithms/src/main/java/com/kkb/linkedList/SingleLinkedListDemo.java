@@ -282,7 +282,7 @@ class SingleLinkedList {
 //    }
     //倒序输出,栈的方法
     public void showReverseList() {
-        Stack<HeroNode> stack = new Stack<>();
+        Stack<HeroNode> stack = new Stack<HeroNode>();
         HeroNode temp = head.next;
         while (temp != null) {
             stack.push(temp);

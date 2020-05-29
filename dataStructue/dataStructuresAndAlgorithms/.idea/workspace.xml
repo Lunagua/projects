@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47749aaf-ad40-4e06-8fce-388bdffe1f72" name="Default Changelist" comment="" />
+    <list default="true" id="47749aaf-ad40-4e06-8fce-388bdffe1f72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/DoubleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/dataStructuresAndAlgorithms.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/DataStructuresTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/DataStructuresTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/DeleteData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/DeleteData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/HanNuoTa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/HanNuoTa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/InsertData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/InsertData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/NodeTest$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/NodeTest$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/NodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/NodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/ZiFucCuanPiPei.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/dataStructuresAndAlgorithms/ZiFucCuanPiPei.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/HeroNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/HeroNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/SingleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/SingleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/SingleLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/linkedList/SingleLinkedListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/queue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/queue/CircleQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/queue/CircleQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/queue/CircleQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/sparseArray/SparseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/sparseArray/SparseArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/kkb/sparseArray/SparseArrayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/kkb/sparseArray/SparseArrayTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +35,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+            <state relative-caret-position="262">
+              <caret line="15" column="58" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
               <folding>
                 <element signature="method#reverse#0;class#SingleLinkedList#0" />
                 <element signature="method#add#0;class#SingleLinkedList#0" />
@@ -28,10 +48,20 @@
                 <element signature="method#modify#0;class#SingleLinkedList#0" />
                 <element signature="method#search#0;class#SingleLinkedList#0" />
                 <element signature="method#searchReverse#0;class#SingleLinkedList#0" />
+                <element signature="e#8410#8420#0" expanded="true" />
                 <element signature="e#8679#8680#0" expanded="true" />
                 <element signature="e#8706#8707#0" expanded="true" />
                 <element signature="class#HeroNode#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kkb/linkedList/DoubleLinkedListDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -49,6 +79,9 @@
     <findStrings>
       <find>throw</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kkb/queue/CircleQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kkb/linkedList/DoubleLinkedListDemo.java" />
       </list>
     </option>
   </component>
@@ -79,19 +113,78 @@
     <option name="width" value="1052" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="dataStructuresAndAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dataStructuresAndAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kkb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kkb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linkedList" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="dataStructuresAndAlgorithms" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="dataStructuresAndAlgorithms" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kkb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linkedList" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="DoubleLinkedListDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -100,8 +193,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -117,22 +212,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleLinkedListDemo">
+  <component name="RunManager" selected="Application.DoubleLinkedListDemo">
     <configuration name="ArrayQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kkb.queue.ArrayQueueTest" />
-      <module name="dataStructuresAndAlgorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CircleArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.queue.CircleArrayQueue" />
       <module name="dataStructuresAndAlgorithms" />
       <extension name="coverage">
         <pattern>
@@ -150,6 +232,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.kkb.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.linkedList.DoubleLinkedListDemo" />
+      <module name="dataStructuresAndAlgorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleLinkedListDemo" />
         <item itemvalue="Application.SingleLinkedListDemo" />
         <item itemvalue="Application.CircleQueueDemo" />
         <item itemvalue="Application.SingleLinkedListTest" />
         <item itemvalue="Application.ArrayQueueTest" />
-        <item itemvalue="Application.CircleArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -208,11 +303,14 @@
       <workItem from="1590365592905" duration="624000" />
       <workItem from="1590368525960" duration="28342000" />
       <workItem from="1590452137292" duration="688000" />
+      <workItem from="1590708443655" duration="20000" />
+      <workItem from="1590708506249" duration="21000" />
+      <workItem from="1590712997489" duration="3446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78887000" />
+    <option name="totallyTimeSpent" value="82374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -225,8 +323,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28290468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.295764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -235,7 +334,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5394525" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33064517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.65217394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,7 +344,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32850242" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32419354" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -393,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        <state relative-caret-position="262">
+          <caret line="15" column="58" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="58" />
           <folding>
             <element signature="method#reverse#0;class#SingleLinkedList#0" />
             <element signature="method#add#0;class#SingleLinkedList#0" />
@@ -403,10 +502,18 @@
             <element signature="method#modify#0;class#SingleLinkedList#0" />
             <element signature="method#search#0;class#SingleLinkedList#0" />
             <element signature="method#searchReverse#0;class#SingleLinkedList#0" />
+            <element signature="e#8410#8420#0" expanded="true" />
             <element signature="e#8679#8680#0" expanded="true" />
             <element signature="e#8706#8707#0" expanded="true" />
             <element signature="class#HeroNode#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kkb/linkedList/DoubleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
