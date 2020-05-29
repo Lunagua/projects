@@ -52,8 +52,8 @@ public class WordCounter extends Configured implements Tool {
         job.setOutputValueClass(IntWritable.class);
 
         //第八步:通过OutFormat的RecordWriter将结果写入文件系统
-        job.setOutputFormatClass(TextOutputFormat.class);
-        TextOutputFormat.setOutputPath(job, new Path("hdfs://node01:8020/nangua/out/out_"+ System.currentTimeMillis()));
+        job.setOutputFormatClass(MyOutputFormat.class);
+        MyOutputFormat.setOutputPath(job, new Path("C:\\Users\\Thinkpad\\Documents\\2.第二课\\6、MapReduce直播(1)(3)\\1、数据&代码资料\\1、wordCount_input\\test\\out"));
 
         boolean b = job.waitForCompletion(true);
         return b ? 0 : 1;

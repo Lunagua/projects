@@ -11,35 +11,35 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
 public class MergeSmallFile extends Configured implements Tool {
-
     @Override
     public int run(String[] args) throws Exception {
+        //创建JOB对象
         Job job = Job.getInstance(super.getConf(), "mergeSmallFile");
-        job.setInputFormatClass(MyInputFormat.class);
         job.setJarByClass(MergeSmallFile.class);
 
-//        MyInputFormat.addInputPath(job,new Path(args[0]));
-        MyInputFormat.addInputPath(job, new Path("file:///C:\\Users\\Thinkpad\\Documents\\2.第二课\\6、MapReduce直播(1)(3)\\1、数据&代码资料\\1、wordCount_input\\test2"));
-
+        //设置InputFormat
+        job.setInputFormatClass(MyInputFormat.class);
+        MyInputFormat.addInputPath(job, new Path("file:///C:\\Users\\Thinkpad\\Documents\\smallfile"));
+        //设置Mapper
         job.setMapperClass(MyMapper.class);
+        //设置mapout key \ value
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(BytesWritable.class);
 
+        //设置reduce outkey \ value
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(BytesWritable.class);
-
+        //设置输出文件格式
         job.setOutputFormatClass(SequenceFileOutputFormat.class);
-        SequenceFileOutputFormat.setOutputPath(job, new Path("hdfs://node01/nangua/out/out_sequence" + System.currentTimeMillis()));
-
+        SequenceFileOutputFormat.setOutputPath(job, new Path("C:\\Users\\Thinkpad\\Documents\\out\\out_" + System.currentTimeMillis()));
+        //job等待执行结束
         boolean b = job.waitForCompletion(true);
-
         return b ? 0 : 1;
     }
 
     public static void main(String[] args) throws Exception {
         Configuration configuration = new Configuration();
-        int run = ToolRunner.run(configuration,new MergeSmallFile(),args);
+        int run = ToolRunner.run(configuration, new MergeSmallFile(), args);
         System.exit(run);
-
     }
 }
