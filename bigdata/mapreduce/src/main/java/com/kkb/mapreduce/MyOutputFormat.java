@@ -1,6 +1,5 @@
 package com.kkb.mapreduce;
 
-import com.kkb.myInputFormat.MyRecordReader;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataOutputStream;
 import org.apache.hadoop.fs.FileSystem;
