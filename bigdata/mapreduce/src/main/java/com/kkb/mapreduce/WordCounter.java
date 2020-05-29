@@ -6,6 +6,8 @@ import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.CombineFileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
@@ -32,9 +34,10 @@ public class WordCounter extends Configured implements Tool {
         job.setJarByClass(WordCounter.class);
 
         //第一步:通过InputFormat读取数据,并形成KV对,传输给第二步
-        job.setInputFormatClass(TextInputFormat.class);
+        job.setInputFormatClass(CombineTextInputFormat.class);
+        CombineTextInputFormat.setMaxInputSplitSize(job,8194304);
         //指定待处理文件所在的路径
-        TextInputFormat.addInputPath(job, new Path("file///C:\\Users\\Thinkpad\\Documents\\2.第二课\\6、MapReduce直播(1)(3)\\1、数据&代码资料\\1、wordCount_input\\test"));
+        CombineTextInputFormat.addInputPath(job, new Path(args[0]));
 
         //第二步:将kv对输入Mymapper形成新的kv对输出
         job.setMapperClass(MyMapper.class);
@@ -52,7 +55,7 @@ public class WordCounter extends Configured implements Tool {
 
         //第八步:通过OutFormat的RecordWriter将结果写入文件系统
         job.setOutputFormatClass(MyOutputFormat.class);
-        MyOutputFormat.setOutputPath(job, new Path("C:\\Users\\Thinkpad\\Documents\\2.第二课\\6、MapReduce直播(1)(3)\\1、数据&代码资料\\1、wordCount_input\\test\\out"));
+        MyOutputFormat.setOutputPath(job, new Path(args[1]));
 
         boolean b = job.waitForCompletion(true);
         return b ? 0 : 1;
