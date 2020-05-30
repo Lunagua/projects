@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7657fd9f-fee0-4cc2-9746-8cdc722b7c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myKeyValueTextInputFormat/KeyValueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/Dedupli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliReduce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderPartitoner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumReducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/WordCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/WordCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/mapreduce/MyReducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/mapreduce/MyReducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/mapreduce/WordCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/mapreduce/WordCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapreduce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java">
+        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="152">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,10 +67,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyOutputFormat.java">
+        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+            <state relative-caret-position="190">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,34 +79,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/WordCounter.java">
+        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/Dedupli.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="328">
+              <caret line="58" column="25" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="58" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,8 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/test.java" />
         <option value="$PROJECT_DIR$/src/test/java/HadoopApiTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/UploadToHdfs.java" />
         <option value="$PROJECT_DIR$/src/main/java/HdfsDemo.java" />
@@ -149,6 +145,24 @@
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyMapper.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGreoupMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupPartitioner.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroupMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroup.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupMain.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderPartitoner.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderBean.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderReducer.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliReduce.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/Dedupli.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumReducer.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNum.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandBean.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrand.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandMapper.java" />
+        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandReducer.java" />
       </list>
     </option>
   </component>
@@ -157,27 +171,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hdfssystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hdfssystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="mapreduce" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hdfssystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="679" />
-    <option name="y" value="32" />
-    <option name="width" value="1052" />
-    <option name="height" value="754" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -187,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,31 +246,37 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="myInputFormat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="myOutputFormat" type="462c0819:PsiDirectoryNode" />
+              <item name="findGrand" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +328,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,15 +343,19 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\bigdata\hdfssystem\src\main\java" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\bigdata\hdfssystem\src\main\java" />
       <recent name="E:\bigdata\src\main" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kkb.findGrand" />
+      <recent name="com.kkb.groupForOrder" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bigdata\hdfssystem\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,44 +370,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyOutputFormat">
+  <component name="RunManager" selected="Application.FindGrand">
+    <configuration name="Dedupli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.deduplication.Dedupli" />
+      <module name="mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindGrand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.findGrand.FindGrand" />
+      <module name="mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习3 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习3\out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.mpReduce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FlowBean" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.mybean.FlowMain" />
       <module name="mapreduce" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\1、hadoop的序列化\数据\input C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\1、hadoop的序列化\数据\out" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainTest" />
-      <module name="bigdata" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSmallFile (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.myinputformat.MergeSmallFile" />
-      <module name="hdfssystem" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.myinputformat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSmallFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.myInputFormat.MergeSmallFile" />
-      <module name="mapreduce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.myInputFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -402,13 +409,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.mapreduce.WordCounter" />
+    <configuration name="OrderGroup" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.groupForOrder.GroupMain" />
       <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\2、CombineTextInputFormat\input01 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\2、CombineTextInputFormat\out" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\6、MapReduce直播(1)(3)\1、数据&amp;代码资料\6、mapreduce当中的分组求topN\数据 C:\Users\Thinkpad\Documents\2.第二课\6、MapReduce直播(1)(3)\1、数据&amp;代码资料\6、mapreduce当中的分组求topN\out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.sortNum.SortNum" />
+      <module name="mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习2 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习2\out" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.mapreduce.*" />
+          <option name="PATTERN" value="com.kkb.myinputformat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -416,12 +431,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordsCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.mpReduce.WordsCounter" />
-      <module name="hdfssystem" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.findGrand.Test" />
+      <module name="mapreduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.mpReduce.*" />
+          <option name="PATTERN" value="com.kkb.findGrand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.mapreduce.WordCounter" />
+      <module name="mapreduce" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\2、CombineTextInputFormat\input01 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\2、CombineTextInputFormat\out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.mapreduce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,19 +470,20 @@
       <item itemvalue="Application.mergerSmallFile" />
       <item itemvalue="Application.FlowBean" />
       <item itemvalue="Application.MyOutputFormat" />
-      <item itemvalue="Application.MainTest" />
-      <item itemvalue="Application.MergeSmallFile" />
-      <item itemvalue="Application.MergeSmallFile (1)" />
+      <item itemvalue="Application.OrderGroup" />
+      <item itemvalue="Application.Dedupli" />
+      <item itemvalue="Application.SortNum" />
       <item itemvalue="Application.WordCounter" />
-      <item itemvalue="Application.WordsCounter" />
+      <item itemvalue="Application.FindGrand" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindGrand" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SortNum" />
+        <item itemvalue="Application.Dedupli" />
         <item itemvalue="Application.WordCounter" />
-        <item itemvalue="Application.MergeSmallFile" />
-        <item itemvalue="Application.MergeSmallFile (1)" />
-        <item itemvalue="Application.WordsCounter" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +506,8 @@
       <workItem from="1590651406993" duration="9065000" />
       <workItem from="1590665483819" duration="2816000" />
       <workItem from="1590706676708" duration="222000" />
-      <workItem from="1590716662946" duration="18014000" />
+      <workItem from="1590716662946" duration="18770000" />
+      <workItem from="1590801293868" duration="29326000" />
     </task>
     <task id="LOCAL-00001" summary="新增outputformat">
       <created>1590734541491</created>
@@ -499,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590747346030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增自定义outputFormat">
+      <created>1590752897087</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590752897087</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -535,7 +573,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73898000" />
+    <option name="totallyTimeSpent" value="103980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,7 +588,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.08387097" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.08387097" visible="true" weight="0.24130106" />
       <window_info id="Structure" order="1" sideWeight="0.91612905" side_tool="true" weight="0.26096824" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -559,14 +597,14 @@
       <window_info id="Favorites" order="6" sideWeight="0.91612905" side_tool="true" weight="0.3184569" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.28870967" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22258064" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.45967743" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.63225806" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4380032" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.61451614" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.33225808" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32850242" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -620,222 +658,28 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="新增outputformat" />
     <MESSAGE value="新增序列化反序列化" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增序列化反序列化" />
+    <MESSAGE value="新增自定义outputFormat" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增自定义outputFormat" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat</OriginalElement>
-          <nodes>
-            <node x="0.0" y="158.0">org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat</node>
-            <node x="36.0" y="0.0">org.apache.hadoop.mapreduce.InputFormat</node>
-            <node x="24.0" y="79.0">org.apache.hadoop.mapreduce.lib.input.FileInputFormat</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.hadoop.mapreduce.lib.input.FileInputFormat" target="org.apache.hadoop.mapreduce.InputFormat">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat" target="org.apache.hadoop.mapreduce.lib.input.FileInputFormat">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="6.0" y="49.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JIGSAW/hadoop.core">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>hadoop.core</OriginalElement>
-          <nodes>
-            <node x="" y="">hadoop.core</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="48.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.hadoop.mapreduce.lib.input.FileInputFormat">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.hadoop.mapreduce.lib.input.FileInputFormat</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.hadoop.mapreduce.InputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.FileInputFormat</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="54.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/mpReduce/WordsCounter.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapreduce/lib/input/TextInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="44" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/lang/Long.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapreduce/TaskAttemptContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapred/FileSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="56" column="53" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/target/classes/com/kkb/myinputformat/MyRecordReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <folding>
-            <element signature="e#0#2225#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bigdata.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="75" column="31" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="85" column="12" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/mapreduce.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MergeSmallFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.apache.hadoop.mapreduce.InputFormat">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.apache.hadoop.mapreduce.InputFormat</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.NLineInputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.TextInputFormat</node>
-            <node x="" y="">org.apache.hadoop.classification.InterfaceAudience.Public</node>
-            <node x="" y="">com.kkb.myInputFormat.MyInputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.CombineFileInputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.FixedLengthInputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat</node>
-            <node x="" y="">org.apache.hadoop.classification.InterfaceStability.Stable</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.InputFormat</node>
-            <node x="" y="">com.kkb.myinputformat.MyInputFormat</node>
-            <node x="" y="">org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.329323308270677" x="477.24547511312204" y="111.14579354224531" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2.jar!/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -903,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
@@ -923,30 +757,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1064,10 +878,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyOutputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="53" column="28" lean-forward="true" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="817">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1076,18 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/WordCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="874">
           <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1104,10 +918,235 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java">
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        <state relative-caret-position="513">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGreoupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1117#1118#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderPartitoner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/Deduplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="26" column="65" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliReduce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="87" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/io/NullWritable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/Dedupli.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="58" column="25" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
