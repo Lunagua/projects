@@ -1,7 +1,11 @@
 com\kkb\myInputFormat\MergeSmallFile.class
 com\kkb\mapreduce\MyReducer.class
 com\kkb\mapreduce\MyMapper.class
+com\kkb\myTests\myPatitioner\MyPartitiner.class
+com\kkb\myTests\myPatitioner\MyPartMapper.class
+com\kkb\myTests\myPatitioner\MyPartReducer.class
 com\kkb\myInputFormat\MyInputFormat.class
 com\kkb\myInputFormat\MyMapper.class
+com\kkb\myTests\myPatitioner\MyPartitionerDemo.class
 com\kkb\myInputFormat\MyRecordReader.class
 com\kkb\mapreduce\WordCounter.class

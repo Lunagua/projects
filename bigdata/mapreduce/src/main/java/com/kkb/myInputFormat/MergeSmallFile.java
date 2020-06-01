@@ -10,6 +10,8 @@ import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 
+import java.io.File;
+
 public class MergeSmallFile extends Configured implements Tool {
     @Override
     public int run(String[] args) throws Exception {
@@ -19,7 +21,7 @@ public class MergeSmallFile extends Configured implements Tool {
 
         //设置InputFormat
         job.setInputFormatClass(MyInputFormat.class);
-        MyInputFormat.addInputPath(job, new Path("file:///C:\\Users\\Thinkpad\\Documents\\smallfile"));
+        MyInputFormat.addInputPath(job, new Path(args[0]));
         //设置Mapper
         job.setMapperClass(MyMapper.class);
         //设置mapout key \ value
@@ -31,7 +33,7 @@ public class MergeSmallFile extends Configured implements Tool {
         job.setOutputValueClass(BytesWritable.class);
         //设置输出文件格式
         job.setOutputFormatClass(SequenceFileOutputFormat.class);
-        SequenceFileOutputFormat.setOutputPath(job, new Path("C:\\Users\\Thinkpad\\Documents\\out\\out_" + System.currentTimeMillis()));
+        SequenceFileOutputFormat.setOutputPath(job, new Path(args[1] + File.separator + "mergeFile_" + System.currentTimeMillis()));
         //job等待执行结束
         boolean b = job.waitForCompletion(true);
         return b ? 0 : 1;
