@@ -5,26 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7657fd9f-fee0-4cc2-9746-8cdc722b7c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dataStructue/dataStructue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructue/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CircleSimpleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/DataClearMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/DataClearMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/searchCount/SearchCountMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/NCDCDataSort/NCDCDataSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/groupForTop2/GroupForTop2Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/mergeSmallFile/MergeFileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/myPatitioner/MyPartitionerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/secondSort/SecondSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/NcdcRecordParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortByTemperatureUsingTotalOrderPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortDataPreprocessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CalculatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/PolandNotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/linkedListStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/kkb/hbase/HbaseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyFSDataInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyTestHdfsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MergeSmallFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MergeSmallFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/myInputFormat/MergeSmallFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/classes/com/kkb/myInputFormat/MergeSmallFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapreduce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mapreduce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataStructue/target/classes/com/kkb/circleSimpleLinkedList/CircleSimpleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/dataStructue/target/classes/com/kkb/circleSimpleLinkedList/CircleSimpleLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/HdfsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/HdfsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MergeSmallFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyInputFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/myinputformat/MyRecordReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/target/classes/com/kkb/HDFSsystem/HdfsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/hdfssystem/target/classes/com/kkb/HDFSsystem/HdfsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hdfssystem/target/classes/com/kkb/HDFSsystem/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/hdfssystem/target/classes/com/kkb/HDFSsystem/MainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,6 +41,7 @@
     <ignored path="$PROJECT_DIR$/hdfssystem/target/" />
     <ignored path="$PROJECT_DIR$/mapreduce/target/" />
     <ignored path="$PROJECT_DIR$/dataStructue/target/" />
+    <ignored path="$PROJECT_DIR$/hbase/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +57,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortByTemperatureUsingTotalOrderPartitioner.java">
+        <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/kkb/hbase/HbaseDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+            <state relative-caret-position="1574">
+              <caret line="354" column="26" lean-forward="true" selection-start-line="354" selection-start-column="26" selection-end-line="354" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#filter#0;class#HbaseDemo#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/filter/CompareFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Scan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="880" column="47" selection-start-line="880" selection-start-column="30" selection-end-line="880" selection-end-column="47" />
+              <folding>
+                <element signature="e#13122#13123#0" expanded="true" />
+                <element signature="e#13139#13140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="314" column="2" lean-forward="true" selection-start-line="314" selection-start-column="2" selection-end-line="314" selection-end-column="2" />
+              <folding>
+                <element signature="e#13371#13372#0" expanded="true" />
+                <element signature="e#13397#13398#0" expanded="true" />
+                <element signature="e#13704#13705#0" expanded="true" />
+                <element signature="e#13745#13746#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Put.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+              <folding>
+                <element signature="e#2145#2146#0" expanded="true" />
+                <element signature="e#2193#2194#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-common/src/main/java/org/apache/hadoop/hbase/HBaseConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -71,7 +153,12 @@
       <find>key.value.separator.in.input.line</find>
       <find>try</find>
       <find>out.p</find>
+      <find>PrintStream</find>
+      <find>System</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -79,25 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mapreduce/pom.xml" />
-        <option value="$PROJECT_DIR$/hdfssystem/pom.xml" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyInputFormat.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyMapper.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyReducer.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/MyOutputFormat.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowBean.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMapper.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMain.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowReducer.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mapreduce/WordCounter.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myKeyValueTextInputFormat/KeyValueMain.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyRecordReader.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyMapper.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/OutputMain.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myOutputFormat/MyOutputFormat.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGreoupMapper.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupPartitioner.java" />
-        <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroupMapper.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroup.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/GroupMain.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderPartitoner.java" />
@@ -130,6 +198,25 @@
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/NCDCDataSort/NCDCDataSortDemo.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/NcdcRecordParser.java" />
         <option value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortByTemperatureUsingTotalOrderPartitioner.java" />
+        <option value="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/HdfsDemo.java" />
+        <option value="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/myTestHdfsDemo.java" />
+        <option value="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyTestHdfsDemo.java" />
+        <option value="$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyFSDataInputStream.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/linkedListStack.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CalculatorDemo.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/PolandNotation.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/MiGong.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8Demo.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SelectSort.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SortDemo.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/InsertSort.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/hbase/pom.xml" />
+        <option value="$PROJECT_DIR$/hbase/src/main/java/com/kkb/hbase/HbaseDemo.java" />
       </list>
     </option>
   </component>
@@ -162,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,109 +260,41 @@
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="groupForOrder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="myTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="myTests" type="462c0819:PsiDirectoryNode" />
-              <item name="NCDCDataSort" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
-              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="kkb" type="462c0819:PsiDirectoryNode" />
-              <item name="myTests" type="462c0819:PsiDirectoryNode" />
-              <item name="totalorder" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -295,6 +313,22 @@
               <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
               <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-common:2.6.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-common-2.6.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="fs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
@@ -349,23 +383,69 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="partition" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-client:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-client:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hbase-client-1.2.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-client:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hbase-client-1.2.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-client:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hbase-client-1.2.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-common:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-common:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hbase-common-1.2.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hbase:hbase-common:1.2.0-cdh5.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="hbase-common-1.2.0-cdh5.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -396,33 +476,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GroupForTop2">
+  <component name="RunManager" selected="Application.HbaseDemo">
     <configuration name="DataClear" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.dataClear.DataClearMain" />
       <module name="mapreduce" />
       <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MR练习题\数据\数据清洗 C:\Users\Thinkpad\Documents\2.第二课\MR练习题\数据\out" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dedupli" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.deduplication.Dedupli" />
-      <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\out" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindGrand" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.findGrand.FindGrand" />
-      <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习3 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习3\out" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kkb.mpReduce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -443,6 +501,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HbaseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hbase.HbaseDemo" />
+      <module name="hbase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.hbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeFile" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.myTests.mergeSmallFile.MergeFileDemo" />
       <module name="mapreduce" />
@@ -451,13 +522,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSmallFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.myInputFormat.MergeSmallFile" />
-      <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MR练习题\数据\自定义分区 C:\Users\Thinkpad\Documents\2.第二课\MR练习题\数据\out" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.sort.MergeSort" />
+      <module name="dataStructue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.myInputFormat.*" />
+          <option name="PATTERN" value="com.kkb.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,6 +559,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.sort.QuickSort" />
+      <module name="dataStructue" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kkb.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SearchCount" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.kkb.dataClear.searchCount.SearchCountMain" />
       <module name="mapreduce" />
@@ -505,13 +588,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.sortNum.SortNum" />
-      <module name="mapreduce" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习2 C:\Users\Thinkpad\Documents\2.第二课\MapReduce录播课件\联系数据\练习2\out" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.sort.ShellSort" />
+      <module name="dataStructue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.myinputformat.*" />
+          <option name="PATTERN" value="com.kkb.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -519,12 +601,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TEst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kkb.myTests.groupForTop2.TEst" />
-      <module name="mapreduce" />
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kkb.hbase.TestDemo" />
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kkb.myTests.groupForTop2.*" />
+          <option name="PATTERN" value="com.kkb.hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -551,19 +633,19 @@
       <item itemvalue="Application.MergeFile" />
       <item itemvalue="Application.SecondSort" />
       <item itemvalue="Application.GroupForTop2" />
-      <item itemvalue="Application.Dedupli" />
-      <item itemvalue="Application.SortNum" />
-      <item itemvalue="Application.FindGrand" />
-      <item itemvalue="Application.MergeSmallFile" />
-      <item itemvalue="Application.TEst" />
+      <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.HbaseDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TEst" />
-        <item itemvalue="Application.MergeSmallFile" />
-        <item itemvalue="Application.DataClear" />
-        <item itemvalue="Application.FindGrand" />
-        <item itemvalue="Application.SortNum" />
+        <item itemvalue="Application.HbaseDemo" />
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -590,7 +672,16 @@
       <workItem from="1590801293868" duration="30058000" />
       <workItem from="1590879362622" duration="18876000" />
       <workItem from="1590911276352" duration="16136000" />
-      <workItem from="1590963800725" duration="8606000" />
+      <workItem from="1590963800725" duration="23020000" />
+      <workItem from="1591062024630" duration="594000" />
+      <workItem from="1591087126728" duration="19298000" />
+      <workItem from="1591147734416" duration="1496000" />
+      <workItem from="1591244823341" duration="9122000" />
+      <workItem from="1591317159186" duration="11900000" />
+      <workItem from="1591345119098" duration="8823000" />
+      <workItem from="1591586518505" duration="11368000" />
+      <workItem from="1591666949233" duration="4145000" />
+      <workItem from="1591837852562" duration="20061000" />
     </task>
     <task id="LOCAL-00001" summary="新增outputformat">
       <created>1590734541491</created>
@@ -627,7 +718,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590841205504</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="新增作业代码">
+      <created>1590985754229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590985754229</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -663,7 +761,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148330000" />
+    <option name="totallyTimeSpent" value="249551000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,19 +773,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.08225807" visible="true" weight="0.2526475" />
-      <window_info id="Structure" order="1" sideWeight="0.91774195" side_tool="true" weight="0.24508321" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3178808" visible="true" weight="0.18571429" />
+      <window_info id="Structure" order="1" sideWeight="0.6821192" side_tool="true" weight="0.18571429" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.91612905" side_tool="true" weight="0.3184569" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.28870967" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5274193" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.63225806" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2876923" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.65384614" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5723077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
@@ -768,455 +866,10 @@
     <MESSAGE value="新增序列化反序列化" />
     <MESSAGE value="新增自定义outputFormat" />
     <MESSAGE value="新增自定义reduce join,文件自关联" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增自定义reduce join,文件自关联" />
+    <MESSAGE value="新增作业代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增作业代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliReduce.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/DedupliMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/mybean/FlowMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNumMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="87" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/sortNum/SortNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/io/NullWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandBean.java" />
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/findGrand/FindGrandReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hdfssystem/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="85" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructue/dataStructue.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructue/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CircleSimpleLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1861#1862#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/deduplication/Dedupli.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapreduce/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="95" column="13" selection-start-line="95" selection-start-column="13" selection-end-line="95" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/io/Writable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapreduce/Counter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/lang/Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="243" column="25" selection-start-line="243" selection-start-column="25" selection-end-line="243" selection-end-column="25" />
-          <folding>
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2063#2064#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3009#3010#0" expanded="true" />
-            <element signature="e#4005#4006#0" expanded="true" />
-            <element signature="e#4032#4033#0" expanded="true" />
-            <element signature="e#4357#4358#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-            <element signature="e#4551#4552#0" expanded="true" />
-            <element signature="e#4590#4591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/DataClearReducer.java" />
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/DataClearMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/DataClearMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderPartitoner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/dataClear/searchCount/SearchCountMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/myPatitioner/MyPartitionerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-779">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="77" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/mergeSmallFile/MergeSmallFileDemo.java" />
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myInputFormat/MergeSmallFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/secondSort/SecondSortDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#SecondSortReducer#0" />
-            <element signature="class#SecondSortMapper#0" />
-            <element signature="class#SecondSortKey#0" />
-            <element signature="e#4670#4671#0" expanded="true" />
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4737#4738#0" expanded="true" />
-            <element signature="e#4769#4770#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
-            <element signature="e#4826#4827#0" expanded="true" />
-            <element signature="e#4865#4866#0" expanded="true" />
-            <element signature="e#4895#4896#0" expanded="true" />
-            <element signature="e#4928#4929#0" expanded="true" />
-            <element signature="e#4957#4958#0" expanded="true" />
-            <element signature="e#5001#5002#0" expanded="true" />
-            <element signature="e#5037#5038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/mergeSmallFile/MergeFileDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#MergeFileMapper#0" />
-            <element signature="class#MergeFileInputFormat#0" />
-            <element signature="class#MegerFileRecordReader#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/groupForOrder/OrderGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/lang/Comparable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="128" column="38" lean-forward="true" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/io/WritableComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="176" column="17" selection-start-line="176" selection-start-column="17" selection-end-line="176" selection-end-column="17" />
-          <folding>
-            <element signature="e#6209#6210#0" expanded="true" />
-            <element signature="e#6240#6241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/lang/Double.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="536" column="25" selection-start-line="536" selection-start-column="25" selection-end-line="536" selection-end-column="25" />
-          <folding>
-            <element signature="e#38307#38308#0" expanded="true" />
-            <element signature="e#38372#38373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/groupForTop2/TEst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/groupForTop2/GroupForTop2Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1279#1280#0" expanded="true" />
-            <element signature="class#GroupForTop2Partitioner#0" />
-            <element signature="e#8275#8276#0" expanded="true" />
-            <element signature="e#8355#8356#0" expanded="true" />
-            <element signature="e#8421#8422#0" expanded="true" />
-            <element signature="e#8509#8510#0" expanded="true" />
-            <element signature="e#8569#8570#0" expanded="true" />
-            <element signature="e#8645#8646#0" expanded="true" />
-            <element signature="e#8713#8714#0" expanded="true" />
-            <element signature="e#8805#8806#0" expanded="true" />
-            <element signature="e#8878#8879#0" expanded="true" />
-            <element signature="e#8979#8980#0" expanded="true" />
-            <element signature="e#9047#9048#0" expanded="true" />
-            <element signature="e#9139#9140#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../2.第二课/MR练习题/参考答案/Hadoop/src/main/java/com/kaikeba/hadoop/totalorder/NcdcRecordParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../2.第二课/MR练习题/参考答案/Hadoop/src/main/java/com/kaikeba/hadoop/totalorder/SortDataPreprocessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="67" column="17" lean-forward="true" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../2.第二课/MR练习题/参考答案/Hadoop/src/main/java/com/kaikeba/hadoop/totalorder/SortByTemperatureUsingTotalOrderPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortDataPreprocessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-core/2.6.0-mr1-cdh5.14.2/hadoop-core-2.6.0-mr1-cdh5.14.2-sources.jar!/mapred/org/apache/hadoop/mapreduce/lib/partition/TotalOrderPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/NcdcRecordParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-266">
@@ -1238,10 +891,454 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CircleSimpleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mapreduce/src/main/java/com/kkb/myTests/totalorder/SortByTemperatureUsingTotalOrderPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="73" column="36" lean-forward="true" selection-start-line="73" selection-start-column="36" selection-end-line="73" selection-end-column="36" />
+        <state relative-caret-position="121">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="149" column="22" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.txt" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="1495" column="36" selection-start-line="1495" selection-start-column="36" selection-end-line="1495" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/HdfsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="docComment;method#close#0;class#HdfsDemo#0" />
+            <element signature="method#close#0;class#HdfsDemo#0" />
+            <element signature="method#HdfsDemo#0;class#HdfsDemo#0" />
+            <element signature="docComment;method#putFileToHdfs#0;class#HdfsDemo#0" />
+            <element signature="method#putFileToHdfs#0;class#HdfsDemo#0" />
+            <element signature="docComment;method#downloadFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="method#downloadFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="docComment;method#printFileContentFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="method#printFileContentFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="docComment;method#showFileInfoFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="method#showFileInfoFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="e#4993#5091#0" />
+            <element signature="method#showDirInfoFromHdfs#0;class#HdfsDemo#0" />
+            <element signature="e#5808#5877#0" />
+            <element signature="method#createFileToHdfs#0;class#HdfsDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="169" column="18" lean-forward="true" selection-start-line="169" selection-start-column="18" selection-end-line="169" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+          <folding>
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/io/DataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="500" column="24" selection-start-line="500" selection-start-column="24" selection-end-line="500" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="108" column="49" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/ReadOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyTestHdfsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="39" column="70" lean-forward="true" selection-start-line="39" selection-start-column="70" selection-end-line="39" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createFileForHdfs#0;class#MyTestHdfsDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/Seekable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/PositionedReadable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/fs/FSDataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="79" column="4" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+          <folding>
+            <element signature="e#4955#4956#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hdfssystem/src/main/java/com/kkb/HDFSsystem/MyFSDataInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dataStructue/dataStructuresAndAlgorithms/src/main/java/com/kkb/linkedList/SingleLinkedListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="299" column="18" lean-forward="true" selection-start-line="299" selection-start-column="18" selection-end-line="299" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/linkedListStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1519#1520#0" expanded="true" />
+            <element signature="e#1551#1552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/CalculatorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+          <folding>
+            <element signature="method#ArrayStack#0;class#ArrayStack#0" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2239#2240#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2303#2304#0" expanded="true" />
+            <element signature="method#push#0;class#ArrayStack#0" />
+            <element signature="method#list#0;class#ArrayStack#0" />
+            <element signature="method#priority#0;class#ArrayStack#0" />
+            <element signature="e#3162#3163#0" expanded="true" />
+            <element signature="e#3241#3242#0" expanded="true" />
+            <element signature="method#cal#0;class#ArrayStack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/PolandNotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#polandList#0;class#PolandNotation#0" />
+            <element signature="method#cal#0;class#PolandNotation#0" />
+            <element signature="docComment;method#houzuiExpression#0;class#PolandNotation#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8.0_181/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#2896#2897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="33" column="39" lean-forward="true" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/MiGong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="82" column="13" lean-forward="true" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/circleSimpleLinkedList/Queen8Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/SortDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#bubbleSort#0;class#SortDemo#0" />
+            <element signature="method#selectSort#0;class#SortDemo#0" />
+            <element signature="method#insertSort#0;class#SortDemo#0" />
+            <element signature="method#shellSort#0;class#SortDemo#0" />
+            <element signature="method#quickSort#0;class#SortDemo#0" />
+            <element signature="method#mergeSort#0;class#SortDemo#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataStructue/src/main/java/com/kkb/sort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.0-cdh5.14.2/hbase-client-1.2.0-cdh5.14.2.jar!/org/apache/hadoop/hbase/client/Connection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-common/1.2.0-cdh5.14.2/hbase-common-1.2.0-cdh5.14.2.jar!/org/apache/hadoop/hbase/HBaseConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.14.2/hadoop-common-2.6.0-cdh5.14.2-sources.jar!/org/apache/hadoop/conf/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="178" column="13" selection-start-line="178" selection-start-column="13" selection-end-line="178" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-common/src/main/java/org/apache/hadoop/hbase/TableName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="383" column="26" selection-start-line="383" selection-start-column="26" selection-end-line="383" selection-end-column="26" />
+          <folding>
+            <element signature="e#9311#9312#0" expanded="true" />
+            <element signature="e#9332#9333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Get.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="100" column="11" lean-forward="true" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-common/src/main/java/org/apache/hadoop/hbase/HBaseConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Put.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#2145#2146#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="208" column="26" selection-start-line="208" selection-start-column="19" selection-end-line="208" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/HTableDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="880" column="47" selection-start-line="880" selection-start-column="30" selection-end-line="880" selection-end-column="47" />
+          <folding>
+            <element signature="e#13122#13123#0" expanded="true" />
+            <element signature="e#13139#13140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/HColumnDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="314" column="2" lean-forward="true" selection-start-line="314" selection-start-column="2" selection-end-line="314" selection-end-column="2" />
+          <folding>
+            <element signature="e#13371#13372#0" expanded="true" />
+            <element signature="e#13397#13398#0" expanded="true" />
+            <element signature="e#13704#13705#0" expanded="true" />
+            <element signature="e#13745#13746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Scan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="172" column="9" selection-start-line="172" selection-start-column="9" selection-end-line="172" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="265" column="20" selection-start-line="265" selection-start-column="20" selection-end-line="265" selection-end-column="20" />
+          <folding>
+            <element signature="e#10024#10025#0" expanded="true" />
+            <element signature="e#10083#10084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/client/ResultScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../5.Hbase_NoSQL数据库快速入门/HBase集群安装部署视频资料/安装包&amp;源码包/hbase-1.2.0-cdh5.14.2/hbase-client/src/main/java/org/apache/hadoop/hbase/filter/CompareFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/com/kkb/hbase/HbaseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1574">
+          <caret line="354" column="26" lean-forward="true" selection-start-line="354" selection-start-column="26" selection-end-line="354" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#filter#0;class#HbaseDemo#0" />
+          </folding>
         </state>
       </provider>
     </entry>

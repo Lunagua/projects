@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dataStructue" />
         <module name="mapreduce" />
+        <module name="hbase" />
         <module name="hdfssystem" />
       </profile>
     </annotationProcessing>

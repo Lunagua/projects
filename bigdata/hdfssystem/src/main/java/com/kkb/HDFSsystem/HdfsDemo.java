@@ -2,15 +2,13 @@ package com.kkb.HDFSsystem;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataOutputStream;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.fs.*;
+import org.apache.hadoop.fs.permission.FsPermission;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.text.SimpleDateFormat;
 
 /**
  * 7实验内容和要求
@@ -26,24 +24,15 @@ import java.net.URISyntaxException;
  * （9）删除HDFS中指定的文件；
  * （10）删除HDFS中指定的目录，由用户指定目录中如果存在文件时是否删除目录；
  * （11）在HDFS中，将文件从源路径移动到目的路径。
- * 其次，编程实现一个类“MyFSDataInputStream”，该类继承“org.apache.hadoop.fs.FSDataInputStream”，要求如下：
- * （1）实现按行读取HDFS中指定文件的方法“readLine()”，如果读到文件末尾，则返回空，否则返回文件一行的文本。
- * （2）实现缓存功能，即利用“MyFSDataInputStream”读取若干字节数据时，首先查找缓存，如果缓存中有所需数据，则直接由缓存提供，否则向HDFS读取数据。
- * 查看Java帮助手册或其它资料，用“java.net.URL”和“org.apache.hadoop.fs.FsURLStreamHandlerFactory”编程完成输出HDFS中指定文件的文本到终端中。
- *
- *
- * 在完成以下作业之前，请认真阅读“大数据课程学生服务站”的学习指南栏目中的相关内容，具体请参见《大数据技术原理与应用 第三章 Hadoop分布式文件系统 学习指南》，
- * 访问地址： http://dblab.xmu.edu.cn/blog/290-2/
- * （1）编写一个Java程序，打开一个HDFS中的文件，并读取其中的数据，输出到标准输出；
- * （2）编写一个Java程序，新建一个HDFS文件，并向其中写入你的名字；
- * （3）编写一个Java程序，判断HDFS上是否存在某个文件？
- *       要求：在实验报告中，给出实验过程的一些必要截图，并附上源代码
+
+ * 要求：在实验报告中，给出实验过程的一些必要截图，并附上源代码
  */
 public class HdfsDemo {
     private Configuration configuration;
     private FileSystem fileSystem;
     private FileInputStream fis;
     private FSDataOutputStream fos;
+
 
     /**
      * 关闭资源
@@ -100,8 +89,8 @@ public class HdfsDemo {
     /**
      * 从HDFS中下载指定文件，如果本地文件与要下载的文件名称相同，则自动对下载的文件重命名；
      *
-     * @param srcFilePath   HDFS文件系统中的文件
-     * @param dstFilePath   本地路径
+     * @param srcFilePath HDFS文件系统中的文件
+     * @param dstFilePath 本地路径
      */
     public void downloadFromHdfs(String srcFilePath, String dstFilePath) throws IOException {
         String path[] = dstFilePath.split("\\.");
@@ -116,14 +105,102 @@ public class HdfsDemo {
         fileSystem.close();
     }
 
+    /**
+     * 将HDFS中指定文件的内容输出到终端中
+     */
+    public void printFileContentFromHdfs(String srcFilePath) throws IOException {
+        FSDataInputStream fis = fileSystem.open(new Path(srcFilePath));
+        int len;
+        byte[] bytes = new byte[1024];
+        while ((len = fis.read(bytes)) != -1) {
+            System.out.println(new String(bytes, 0, len));
+        }
+        fis.close();
 
+    }
+
+    /**
+     * 显示HDFS中指定的文件的读写权限、大小、创建时间、路径等信息；
+     *
+     * @param filePath HDFS文件路径
+     */
+    public void showFileInfoFromHdfs(String filePath) throws IOException {
+
+        FileStatus fileStatus = fileSystem.getFileStatus(new Path(filePath));
+        FsPermission filePermission = fileStatus.getPermission();
+        Path path = fileStatus.getPath();
+        long len = fileStatus.getLen();
+        String time = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(fileStatus.getAccessTime());
+        System.out.printf("文件路径: %s\n文件创建时间: %s\n文件大小: %s\n权限: %s", path, time, len, filePermission);
+    }
+
+    /**
+     * 给定HDFS中某一个目录，输出该目录下的所有文件的读写权限、大小、创建时间、路径等信息，
+     * 如果该文件是目录，则递归输出该目录下所有文件相关信息；
+     */
+    public void showDirInfoFromHdfs(String dirPath) throws IOException {
+        FileStatus[] fileStatuses = fileSystem.listStatus(new Path(dirPath));
+
+        for (FileStatus s : fileStatuses) {
+            if (s.isDirectory()) {
+                showDirInfoFromHdfs(s.getPath().toString());
+            } else {
+                System.out.println(
+                        s.getPath().getName() + "\t" +
+                                s.getPermission() + "\t" +
+                                s.getLen() + "\t" +
+                                new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(s.getAccessTime()) + "\t" +
+                                s.getPath());
+            }
+        }
+    }
+    /**
+     * 提供一个HDFS内的文件的路径，对该文件进行创建和删除操作。如果文件所在目录不存在，则自动创建目录；
+     */
+    public void createFileToHdfs(String filePath,String commend) throws IOException {
+        Path path = new Path(filePath);
+        Path dir = path.getParent();
+        switch (commend){
+            case "delete":
+                fileSystem.deleteOnExit(path);
+                break;
+            case "create":
+                if(!fileSystem.exists(dir)){
+                    fileSystem.mkdirs(dir);
+                    fileSystem.create(path);
+                    System.out.println("新建文件夹后新建");
+                }else {
+                    fileSystem.create(path,true);
+                    System.out.println("直接新建");
+                }
+                break;
+            default:
+                System.out.println("please input create or delete commend");
+                break;
+        }
+    }
+    /**
+     * 在HDFS中，将文件从源路径移动到目的路径。
+     */
+    public void moveFileInHdfs(String srcFile, String dstFile) throws IOException {
+        Path srcPath = new Path(srcFile);
+        Path dstPath = new Path(dstFile);
+        fileSystem.rename(srcPath, dstPath);
+
+    }
 }
 
 class MainTest {
     public static void main(String[] args) throws IOException {
         HdfsDemo hdfsDemo = new HdfsDemo("hdfs://node01:8020");
 //        hdfsDemo.putFileToHdfs("C:\\Users\\Thinkpad\\Documents\\smallfile\\file1.txt", "/nangua/file1.txt", true);
-        hdfsDemo.downloadFromHdfs("/nangua/file1.txt","C:\\Users\\Thinkpad\\Documents\\smallfile\\file.txt");
-
+//        hdfsDemo.downloadFromHdfs("/nangua/file1.txt","C:\\Users\\Thinkpad\\Documents\\smallfile\\file.txt");
+//        hdfsDemo.printFileContentFromHdfs("/nangua/datas/1.txt");
+//        hdfsDemo.showFileInfoFromHdfs("/nangua/datas/1.txt");
+//        hdfsDemo.showDirInfoFromHdfs("/nangua/datas");
+//        hdfsDemo.createFileToHdfs("/nangua/datas/data2/2.txt","create");
+//        hdfsDemo.createFileToHdfs("/nangua/datas/data2/3.txt","create");
+//        hdfsDemo.createFileToHdfs("/nangua/datas/data2/2.txt","delete");
+        hdfsDemo.moveFileInHdfs("/nangua/datas/3.txt","/nangua/datas/data2/5.txt");
     }
 }
