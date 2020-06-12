@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dataStructue" />
-        <module name="mapreduce" />
         <module name="hbase" />
+        <module name="mapreduce" />
         <module name="hdfssystem" />
+        <module name="dataStructue" />
       </profile>
     </annotationProcessing>
   </component>
