@@ -1,0 +1,26 @@
+package com.skymoons.test;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		try {
+			Set<String> set = new HashSet<>();
+			set.add("aaaa");
+			set.add("dddd");
+			
+			int i = 2/0;
+			System.out.println(set);
+		} catch (Exception e) {
+//			e.printStackTrace();
+		
+			System.out.println(e.getMessage());
+			
+			System.out.println(000);
+		}
+		System.out.println("---");
+	}
+
+}

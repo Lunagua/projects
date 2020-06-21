@@ -1,0 +1,77 @@
+#!/bin/sh
+
+startDate=`date -d "1 days ago" +%Y-%m-%d`
+endDate=`date -d "1 days ago" +%Y-%m-%d`
+today=`date -d "" +%Y-%m-%d`
+
+# 线程数
+threadCount=20
+# MySQL 连接超时时间设置
+timeOut=600000;
+#使用的游戏
+game="hqg";
+# 要连接的文件地址，注意： 文件必须以\t制表符分割， 格式为： 平台id	区服id	Ip地址	端口号	用户名	密码	数据库名称
+filePath=/home/bigdata/hadoop-project/data_import/conf/hqg-server-list.csv
+# 要拉取数据的mysql 表名
+mysqlTable="log_login"
+# 表名后缀规则，name_2015_1 n_yyyym, name_201501 n_yyyymm, name n
+rule="n_yyyymm"
+# 要拉取的字段
+fields="time,device_id,platform_id,platform_account,player_id,account,server_id,ip,role_id,net_mode,login_mode,phone_model_no,phone_brand,phone_os"
+# 拉取的条件, 注意，前后要加空格
+where=" date(time)>='${startDate}' and date(time)<='${endDate}' "
+# 下载的数据的存放目录，不要 / 结尾, 如果路径不存在，要创建
+tmpDataPath="/home/bigdata/hadoop-project/download/tmp"
+
+# 要加载的hive表
+hiveTable="ods_log_login"
+# 要加载的hive临时表
+tmphiveTable="tmp_ods_log_login"
+# 要加载的hive数据库
+hiveDatabase="hqg_ods"
+
+
+java -cp /home/bigdata/hadoop-project/download/mysql-connector-java-5.1.10.jar:/home/bigdata/hadoop-project/download/Skymoons-0.0.1-SNAPSHOT-jar-with-dependencies.jar com.skymoons.down.DownloadData ${threadCount} ${timeOut} ${game} ${filePath} ${mysqlTable} ${rule} ${fields} "${where}" ${tmpDataPath}
+
+echo "加载数据到hive........................."
+
+if [[ $? -eq 0 ]]
+then
+echo "执行:  cat ${tmpDataPath}/${game}/${mysqlTable}/data/*.data > ${tmpDataPath}/${game}/${hiveTable}.txt "
+cat ${tmpDataPath}/${game}/${mysqlTable}/data/*.data > ${tmpDataPath}/${game}/${hiveTable}.txt
+else
+exit 1
+fi
+
+if [[ $? -eq 0 ]]
+then
+echo "执行:   hive -e load data local inpath '${tmpDataPath}/${game}/${hiveTable}.txt' overwrite into table ${hiveDatabase}.${tmphiveTable};"
+hive -e "load data local inpath '${tmpDataPath}/${game}/${hiveTable}.txt' overwrite into table ${hiveDatabase}.${tmphiveTable};"
+else
+exit 1
+fi
+
+
+if [[ $? -eq 0 ]]
+then
+echo "执行:   insert overwrite table ${hiveDatabase}.${hiveTable} partition(date)
+select time,device_id,platform_id,platform_account,player_id,account,server_id,ip,role_id,net_mode,login_mode,phone_model_no,phone_brand,phone_os,area_id,plat,  substr(time,0,10) as date from ${hiveDatabase}.${tmphiveTable};"
+
+hive -e "insert overwrite table ${hiveDatabase}.${hiveTable} partition(date)
+select time,device_id,platform_id,platform_account,player_id,account,server_id,ip,role_id,net_mode,login_mode,phone_model_no,phone_brand,phone_os,area_id,plat,  substr(time,0,10) as date from ${hiveDatabase}.${tmphiveTable};"
+else
+exit 1
+fi
+
+
+if [[ $? -eq 0 ]]
+then
+echo "执行:  rm -rf ${tmpDataPath}/${game}/${mysqlTable} "
+rm -rf ${tmpDataPath}/${game}/${mysqlTable}
+
+echo "执行:  rm ${tmpDataPath}/${game}/${hiveTable}.txt "
+rm ${tmpDataPath}/${game}/${hiveTable}.txt
+else
+exit 1
+fi
+

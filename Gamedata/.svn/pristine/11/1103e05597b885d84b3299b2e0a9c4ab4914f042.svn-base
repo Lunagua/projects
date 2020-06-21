@@ -1,0 +1,73 @@
+package com.skymoons.sqoop;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+
+import com.skymoons.utils.ExecShell;
+
+/**
+ * 采用 Java 调sqoop 命令去拉取数据
+ * @author hutao
+ *
+ */
+public class ImportData {
+
+	public static void main(String[] args) {
+		System.out.println("Sqoop import data app is running......");
+		if(args.length!=6){
+			System.out.println("请输入的参数分别是： <数据库信息文件路径> <要拉取的表名> <拉取的开始时间> <拉取的结束时间> <hive数据库> <hive的表名> <要导的字段逗号分割>");
+			System.exit(-1);
+		}
+		
+		String filePath = args[0];
+		String table = args[1];
+		String beginDate = args[2];
+		String endDate = args[3];
+		String hiveDB = args[4];
+		String hiveTable = args[5];
+		String fields = args[6];
+		
+		File file = new File(filePath);
+		BufferedReader reader = null;
+		try {
+			reader = new BufferedReader(new FileReader(file));
+			String tmpString = null;
+			int line = 1;   // 设置行号
+			// 一次读入一行，直到读入null为文件结束
+            while ((tmpString = reader.readLine()) != null) {
+                // 显示行号
+                System.out.println("line " + line + ": " + tmpString);
+                String[] split = tmpString.split(","); // 平台id	  区服id	Ip地址	端口号	用户名	密码	 数据库名称
+                String platId = split[0];
+                String serviceId = split[1];
+                String ip = split[2];
+                String port = split[3];
+                String username = split[4];
+                String password = split[5];
+                String database = split[6];
+                String sqoopShell = "sqoop list-tables --connect jdbc:mysql://"+ip+":"+port+"/"+database+" -username "+username+" -password "+password+"";
+                List<String> tables = ExecShell.excuteShell(sqoopShell);
+                for (String mysql_table : tables) {
+					
+				}
+                line++;
+            }
+            reader.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println(filePath + " 文件读取异常。。。");
+		}finally {
+            if (reader != null) {
+                try {
+                	reader.close();
+                } catch (IOException e1) {
+                }
+            }
+        }
+	}
+
+}

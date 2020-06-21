@@ -1,0 +1,40 @@
+package com.skymoons.utils;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Java 调用 shell 命令的 工具类  
+ * @author hutao
+ *
+ */
+public class ExecShell {
+	public static List<String> excuteShell(String shell){
+		
+		Process process = null;  
+        List<String> processList = new ArrayList<String>();  
+        try {  
+            process = Runtime.getRuntime().exec(shell);  
+            BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()));  
+            String line = "";  
+            while ((line = input.readLine()) != null) {  
+                processList.add(line);  
+            }  
+            input.close();  
+        } catch (IOException e) {  
+            e.printStackTrace();  
+        }  
+  
+		return processList;
+	}
+	
+	public static void main(String[] args) {
+		List<String> excuteShell = excuteShell("sqoop help");
+		for (String line : excuteShell) {  
+            System.out.println(line);  
+        } 
+	}
+}

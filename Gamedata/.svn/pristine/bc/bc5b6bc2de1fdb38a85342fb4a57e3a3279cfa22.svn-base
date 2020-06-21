@@ -1,0 +1,52 @@
+package com.skymoons.test;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+//		63	63	rds4385900y46f2q1fwyo.mysql.rds.aliyuncs.com	3306	luo	crimoon2013	seer4399_platform
+
+		Connection conn = null;
+		Statement stmt = null;
+		String myDriver = "com.mysql.jdbc.Driver";
+		String url = "jdbc:mysql://rds4385900y46f2q1fwyo.mysql.rds.aliyuncs.com:3306/seer4399_platform/sss";
+		ResultSet rs = null;
+		
+		try {
+			Class.forName(myDriver);
+			conn = DriverManager.getConnection(url, "luo", "crimoon2013");
+			System.out.println("连接成功");
+			stmt = conn.createStatement();
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.err.println("连接失败");
+			return;
+		}
+		
+		System.out.println("sssssssssssssss");
+		
+		try {	
+			ResultSet resultSet = rs = stmt.executeQuery("desc gift_table_sotAAAA");
+			
+			System.out.println("ddddddddddddddd");
+			
+			while(resultSet.next()){
+				String string = resultSet.getString(1);
+				System.out.println(string);
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.err.println("连接失败");
+		}
+		
+		System.out.println("xxxxxxxx");
+	}
+
+}
