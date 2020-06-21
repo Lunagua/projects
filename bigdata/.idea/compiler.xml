@@ -10,6 +10,7 @@
         <module name="mapreduce" />
         <module name="hdfssystem" />
         <module name="dataStructue" />
+        <module name="flume" />
       </profile>
     </annotationProcessing>
   </component>

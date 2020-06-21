@@ -13,6 +13,7 @@
         <module>hdfssystem</module>
         <module>dataStructue</module>
         <module>hbase</module>
+        <module>flume</module>
     </modules>
     <repositories>
         <repository>

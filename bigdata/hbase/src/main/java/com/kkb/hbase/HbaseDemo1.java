@@ -1,24 +1,29 @@
 package com.kkb.hbase;
 
+import org.apache.commons.lang.time.StopWatch;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.*;
 import org.apache.hadoop.hbase.client.*;
+import org.apache.hadoop.hbase.client.coprocessor.AggregationClient;
+import org.apache.hadoop.hbase.client.coprocessor.LongColumnInterpreter;
 import org.apache.hadoop.hbase.filter.*;
 import org.apache.hadoop.hbase.util.Bytes;
 
 import java.io.IOException;
+import java.util.Collection;
 import java.util.List;
 
 public class HbaseDemo1 {
     private Connection connection;
     private Admin admin;
     private Table table;
+    private Configuration configuration;
 
     /**
      * 构造函数,初始化连接
      */
     public HbaseDemo1() throws IOException {
-        Configuration configuration = HBaseConfiguration.create();    //创建configuration对象
+        configuration = HBaseConfiguration.create();    //创建configuration对象
         configuration.set("hbase.zookeeper.quorum", "node01:2181,node02:2181,node03:2181"); //对象设置连接对象
         connection = ConnectionFactory.createConnection(configuration); //创建连接对象
     }
@@ -58,6 +63,12 @@ public class HbaseDemo1 {
                     Bytes.toString(qualifier),
                     Bytes.toString(value)
             );
+        }
+    }
+
+    public void showData(ResultScanner results) {
+        for (Result result : results) {
+            showData(result);
         }
     }
 
@@ -127,9 +138,8 @@ public class HbaseDemo1 {
         table = connection.getTable(TableName.valueOf(tbname));
         Scan scan = new Scan();
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
+
     }
 
     /**
@@ -140,9 +150,8 @@ public class HbaseDemo1 {
         Scan scan = new Scan();
         scan.addFamily(familyName.getBytes());
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
+
     }
 
     /**
@@ -153,9 +162,7 @@ public class HbaseDemo1 {
         Scan scan = new Scan();
         scan.addColumn(familyName.getBytes(), qualifier.getBytes());
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -167,9 +174,7 @@ public class HbaseDemo1 {
         scan.setStartRow(minRowKey.getBytes());
         scan.setStopRow(maxRowKey.getBytes());
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -182,9 +187,7 @@ public class HbaseDemo1 {
         scan.setStartRow(minRowKey.getBytes());
         scan.setStopRow(maxRowKey.getBytes());
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -197,9 +200,7 @@ public class HbaseDemo1 {
         scan.setStartRow(minRowKey.getBytes());
         scan.setStopRow(maxRowKey.getBytes());
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -212,9 +213,7 @@ public class HbaseDemo1 {
         ValueFilter valueFilter = new ValueFilter(CompareFilter.CompareOp.EQUAL, substringComparator);
         scan.setFilter(valueFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -227,9 +226,7 @@ public class HbaseDemo1 {
         ValueFilter valueFilter = new ValueFilter(CompareFilter.CompareOp.EQUAL, substringComparator);
         scan.setFilter(valueFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -267,9 +264,7 @@ public class HbaseDemo1 {
         RowFilter rowFilter = new RowFilter(op, substringComparator);
         scan.setFilter(rowFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -308,9 +303,7 @@ public class HbaseDemo1 {
         RowFilter rowFilter = new RowFilter(op, substringComparator);
         scan.setFilter(rowFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -349,9 +342,7 @@ public class HbaseDemo1 {
         RowFilter rowFilter = new RowFilter(op, substringComparator);
         scan.setFilter(rowFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -364,9 +355,7 @@ public class HbaseDemo1 {
         FamilyFilter familyFilter = new FamilyFilter(CompareFilter.CompareOp.EQUAL, substringComparator);
         scan.setFilter(familyFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -379,9 +368,7 @@ public class HbaseDemo1 {
         QualifierFilter qualifierFilter = new QualifierFilter(CompareFilter.CompareOp.EQUAL, substringComparator);
         scan.setFilter(qualifierFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -395,9 +382,7 @@ public class HbaseDemo1 {
                 familyName.getBytes(), qualifier.getBytes(), CompareFilter.CompareOp.EQUAL, substringComparator);
         scan.setFilter(singleColumnValueExcludeFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
 
     /**
@@ -409,35 +394,34 @@ public class HbaseDemo1 {
         PrefixFilter prefixFilter = new PrefixFilter(rowKeyPrefix.getBytes());
         scan.setFilter(prefixFilter);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
+
     /**
      * 列值和行键过滤
      */
-    public void filterList(String tbname,String rowKeyPrefix,String value) throws IOException {
+    public void filterList(String tbname, String rowKeyPrefix, String value) throws IOException {
         table = connection.getTable(TableName.valueOf(tbname));
         Scan scan = new Scan();
         PrefixFilter prefixFilter = new PrefixFilter(rowKeyPrefix.getBytes());
-        ValueFilter valueFilter = new ValueFilter(CompareFilter.CompareOp.EQUAL,new SubstringComparator(value));
+        ValueFilter valueFilter = new ValueFilter(CompareFilter.CompareOp.EQUAL, new SubstringComparator(value));
         FilterList filterList = new FilterList();
         filterList.addFilter(prefixFilter);
         filterList.addFilter(valueFilter);
         scan.setFilter(filterList);
         ResultScanner results = table.getScanner(scan);
-        for (Result result : results) {
-            showData(result);
-        }
+        showData(results);
     }
+
     /**
      * 根据行键删除数据
      */
-    public void deleteData(String tbname,String rowKey) throws IOException {
+    public void deleteData(String tbname, String rowKey) throws IOException {
         table = connection.getTable(TableName.valueOf(tbname));
         Delete delete = new Delete(rowKey.getBytes());
         table.delete(delete);
     }
+
     /**
      * 删除表
      */
@@ -447,18 +431,127 @@ public class HbaseDemo1 {
         admin.disableTable(name);
         admin.deleteTable(name);
     }
+
+    /**
+     * 分页查询
+     */
+    public void pageFilter(String tbanem, int pageSize, int pageNum) throws IOException {
+        table = connection.getTable(TableName.valueOf(tbanem));
+        Scan scan = new Scan();
+        PageFilter pageFilter;
+        String startRow = "";
+        if (pageNum == 1) {
+            scan.setStartRow(startRow.getBytes());
+        } else {
+            int num = (pageNum - 1) * pageSize + 1;
+            pageFilter = new PageFilter(num);
+            scan.setFilter(pageFilter);
+            ResultScanner scanner = table.getScanner(scan);
+            for (Result result : scanner) {
+                startRow = Bytes.toString(result.getRow());
+            }
+            scan.setStartRow(startRow.getBytes());
+        }
+        pageFilter = new PageFilter(pageSize);
+        scan.setFilter(pageFilter);
+        ResultScanner results = table.getScanner(scan);
+        showData(results);
+    }
+
+    /**
+     * （1）列出HBase所有的表的相关信息，例如表名、创建时间等；
+     */
+    public void showTables() throws IOException {
+        admin = connection.getAdmin();
+        HTableDescriptor[] listTables = admin.listTables();
+        for (HTableDescriptor table : listTables) {
+//            TableName tableName = table.getTableName();
+//            Collection<HColumnDescriptor> families = table.getFamilies();
+//            System.out.println(tableName.toString());
+//            for(HColumnDescriptor family:families){
+//                System.out.println(family.toString());
+//            }
+            System.out.println(table.toString());
+        }
+    }
+
+    /**
+     * （3）向已经创建好的表添加和删除指定的列族或列；
+     */
+    public void alterTable(String tbname, String familyName, String op) throws IOException {
+        admin = connection.getAdmin();
+        TableName tableName = TableName.valueOf(tbname);
+        if (op.toUpperCase().equals("DELETE")) {
+            admin.deleteColumn(tableName, familyName.getBytes());
+        } else if (op.toUpperCase().equals("ADD")) {
+            HColumnDescriptor hColumnDescriptor = new HColumnDescriptor(familyName);
+            admin.addColumn(tableName, hColumnDescriptor);
+        } else {
+            System.out.println("op error,nothing to do.");
+        }
+    }
+
+    /**
+     * 清空表数据
+     */
+    public void clearTable(String tbname) throws IOException {
+        table = connection.getTable(TableName.valueOf(tbname));
+        Scan scan = new Scan();
+        KeyOnlyFilter keyOnlyFilter = new KeyOnlyFilter();
+        FirstKeyOnlyFilter firstKeyOnlyFilter = new FirstKeyOnlyFilter();
+        FilterList filterList = new FilterList();
+        filterList.addFilter(keyOnlyFilter);
+        filterList.addFilter(firstKeyOnlyFilter);
+        scan.setFilter(filterList);
+        ResultScanner results = table.getScanner(scan);
+        for (Result result : results) {
+            table.delete(new Delete(result.getRow()));
+        }
+    }
+
+    /**
+     * 统计表数据行数
+     */
+    public void countRowNumTable(String tbname) throws Throwable {
+        int count = 0;
+        TableName tableName = TableName.valueOf(tbname);
+        table = connection.getTable(tableName);
+        Scan scan = new Scan();
+        FilterList filterList = new FilterList();
+        filterList.addFilter(new FirstKeyOnlyFilter());
+        filterList.addFilter(new KeyOnlyFilter());
+        scan.setFilter(filterList);
+        ResultScanner results = table.getScanner(scan);
+        for(Result result:results){
+            count++;
+            showData(result);
+
+        }
+        System.out.println("count=" + count);
+    }
 }
 
 
 class Test {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Throwable {
         HbaseDemo1 hbaseDemo1 = new HbaseDemo1();
         String[] names = {"zhangsan", "lisi", "wangwu", "zhaoliu", "liuqi", "morongba", "hetianxia", "tangbei", "kailiang", "huanghe"};
         try {
+//            hbaseDemo1.showTables();
+//            hbaseDemo1.alterTable("table1","data","add");
+//            hbaseDemo1.alterTable("table1", "data", "delete");
+//            hbaseDemo1.clearTable("table1");
             //create table
+            hbaseDemo1.countRowNumTable("score");
 //            hbaseDemo1.createTable("score", "info", "data");
 //            for (int i = 0; i < 10; i++) {
-//                hbaseDemo1.putData("score", "rk0000" + i, "info", "s_id", "200521050301" + i);
+//                hbaseDemo1.putData("table1", "rk0000" + 11, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 12, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 13, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 14, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 15, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 16, "info", "s_id", "200521050301");
+//                hbaseDemo1.putData("table1", "rk0000" + 17, "info", "s_id", "200521050301");
 //                hbaseDemo1.putData("score", "rk0000" + i, "info", "name", names[i]);
 //                hbaseDemo1.putData("score", "rk0000" + i, "data", "c_id", "2020100032" + i);
 //                hbaseDemo1.putData("score", "rk0000" + i, "data", "score", "" + (int) (Math.random() * 60 + 40));
@@ -503,7 +596,9 @@ class Test {
 //            hbaseDemo1.putData("score","kk5555","info","name","liujia");
 //            hbaseDemo1.deleteData("score","kk5555");
 //            hbaseDemo1.createTable("tableFoDelete","info","data");
-            hbaseDemo1.dropTable("tableFoDelete");
+//            hbaseDemo1.dropTable("tableFoDelete");
+
+//            hbaseDemo1.pageFilter("score", 3, 4);
         } finally {
             hbaseDemo1.close();
         }

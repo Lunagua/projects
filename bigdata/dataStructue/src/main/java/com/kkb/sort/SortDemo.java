@@ -6,7 +6,7 @@ import java.util.Date;
 
 public class SortDemo {
     public static void main(String[] args) {
-        int num = 50000000;
+        int num = 20000000;
         int[] arr = new int[num];
         int[] temp = new int[num];
         long time1, time2;
@@ -28,10 +28,10 @@ public class SortDemo {
                     System.out.println("归并排序时间:" + (time2 - time1) / 1000.0);
                     break;
                 case 2:
-//                    time1 = System.currentTimeMillis();
-//                    insertSort(arr);
-//                    time2 = System.currentTimeMillis();
-//                    System.out.println("插入排序时间:" + (time2 - time1) / 1000.0);
+                    time1 = System.currentTimeMillis();
+                    radixSort(arr);
+                    time2 = System.currentTimeMillis();
+                    System.out.println("基数排序时间:" + (time2 - time1) / 1000.0);
                     break;
                 default:
                     time1 = System.currentTimeMillis();
@@ -226,5 +226,46 @@ public class SortDemo {
 
     }
 
+    /**
+     * 基数排序
+     */
+    public static void radixSort(int[] arr) {
+        int length = arr.length;
+        int max = arr[0];
+        for (int i = 0; i < length - 1; i++) {
+            if (max < arr[i]) {
+                max = arr[i];
+            }
+        }
+        int num = (max + "").length();
+
+        int[][] buckets = new int[10][length];
+        int[] elementsIndex = new int[10];
+
+
+
+        for (int i = 0; i < num; i++) {
+            for (int j = 0; j < length; j++) {
+                int elementNum = arr[j] / (int) (Math.pow(10, i)) % 10;
+                buckets[elementNum][elementsIndex[elementNum]++] = arr[j];
+            }
+            int index = 0;
+            for (int k = 0; k < 10; k++) {
+                if (elementsIndex[k] != 0) {
+                    for(int l=0;l<elementsIndex[k];l++){
+                        arr[index++] = buckets[k][l];
+                    }
+                }
+                elementsIndex[k] = 0;
+            }
+        }
+    }
+}
+class test{
+    public static void main(String[] args) {
+        int[] arr = {32,5,654,6544444,58,66,2246,31,4,654,6,54,65,1,321,66,9,321,0,22,88,64,66,66};
+        SortDemo.radixSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
 }
 
